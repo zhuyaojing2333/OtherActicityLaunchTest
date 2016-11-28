@@ -59,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
         int count = 0;
+        //// STOPSHIP: 2016/11/28  
         count++;
         Log.e("Standard", "standard---start"+count);
     }
